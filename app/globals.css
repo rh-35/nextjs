@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  @apply scrollbar-thin scrollbar-track-zinc-200 scrollbar-thumb-zinc-400 scrollbar-track-rounded scrollbar-thumb-rounded dark:scrollbar-track-zinc-900 dark:scrollbar-thumb-zinc-600;
-}
