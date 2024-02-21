@@ -1,35 +1,35 @@
-
+import Link from 'next/link'
 
 export function Navbar(){
     return(
         <div>
             <nav className=" dark:bg-zinc-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="/images/rhea.png" className="h-8 rounded-full" alt="Icon"/>
                         <span className="self-center hover:text-red-600 text-2xl font-semibold">Rhea Milberg</span>
-                    </a>
+                    </Link>
                 <div className="hidden w-full md:block md:w-auto">
                     <ul className="font-medium flex flex-auto space-x-8">
                         <li>
-                            <a href="/about" className="hover:text-red-600">
+                            <Link href="/about" className="hover:text-red-600">
                                About Me 
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/resume" className="hover:text-red-600">
+                            <Link href="/resume" className="hover:text-red-600">
                                 Resume
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/education" className="hover:text-red-600">
+                            <Link href="/education" className="hover:text-red-600">
                                 Education
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/contact" className="bg-red-800 hover:bg-red-600 p-1.5 rounded-md">
+                            <Link href="/contact" className="bg-red-800 hover:bg-red-600 p-1.5 rounded-md">
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
