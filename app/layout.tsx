@@ -1,4 +1,4 @@
-
+import react
 
 export const metadata = {
   title: 'Next.js',
