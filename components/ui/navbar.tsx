@@ -1,8 +1,12 @@
+
+
 export function Navbar(){
     return(
-        <div className="fixed left-0 top-0">
+        <div>
             <nav>
-                <navItem />
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                    
+                </div>  
             </nav>
         </div>
     )
