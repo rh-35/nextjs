@@ -43,7 +43,7 @@ export function Navbar(){
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="bg-red-800 hover:bg-red-600 p-1.5 rounded-md">
+                                <Link href="mailto:rheamilberg@gmail.com" className="bg-red-800 hover:bg-red-600 p-1.5 rounded-md">
                                     Contact
                                 </Link>
                             </li>
@@ -71,7 +71,7 @@ export function Navbar(){
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="hover:text-red-600">
+                                <Link href="mailto:rheamilberg@gmail.com" className="hover:text-red-600">
                                     Contact
                                 </Link>
                             </li>
