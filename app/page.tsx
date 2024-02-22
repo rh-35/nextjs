@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <div>
-      <h1>home page goes here</h1>
+    <div className="flex justify-center">
+      <div className="text-center m-24 text-2xl">
+        Home Page
+      </div>
     </div>
   );
 }
