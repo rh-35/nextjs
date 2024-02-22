@@ -71,7 +71,7 @@ export function Navbar() {
       <div className="md:hidden">
         {open ? (
           <div className="md:block w-full bg-zinc-900 flex border-t h-auto border-zinc-800 justify-center w-auto p-2">
-            <ul className="font-medium text-xl flex flex-col underline underline-offset-4">
+            <ul className="font-medium text-xl flex flex-row flex-wrap justify-center align-center space-x-4 underline underline-offset-4">
               <li>
                 <Link href="/about" className="hover:text-red-600">
                   About Me
