@@ -23,7 +23,7 @@ export function Navbar(){
                             <img src="/images/mods.png" className="h-8"/>
                         </button>
                     </div>
-                    <div className="hidden md:block w-full flex w-auto">
+                    <div className="hidden md:block flex w-auto">
                         <ul className="font-medium flex space-x-8">
                             <li>
                                 <Link href="/about" className="hover:text-red-600">
