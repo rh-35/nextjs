@@ -10,8 +10,8 @@ export function Navbar() {
   };
 
   return (
-    <div>
-      <nav className=" dark:bg-zinc-900 fixed w-full h-15">
+    <div className="fixed w-full">
+      <nav className=" dark:bg-zinc-900 h-15">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             href="/"
@@ -70,7 +70,7 @@ export function Navbar() {
       </nav>
       <div className="md:hidden">
         {open ? (
-          <div className="md:block w-full bg-zinc-900 flex border-t border-zinc-800 justify-center w-auto p-2">
+          <div className="md:block w-full bg-zinc-900 flex border-t h-auto border-zinc-800 justify-center w-auto p-2">
             <ul className="font-medium text-xl flex flex-col underline underline-offset-4">
               <li>
                 <Link href="/about" className="hover:text-red-600">
