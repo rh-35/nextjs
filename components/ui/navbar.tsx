@@ -78,7 +78,7 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/resume" className="hover:text-red-600">
+                <Link href="/resume.pdf" className="hover:text-red-600">
                   Resume
                 </Link>
               </li>
