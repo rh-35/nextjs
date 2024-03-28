@@ -1,7 +1,3 @@
 export default function education() {
-    return (
-        <div>
-            education
-        </div>
-    );
+  return <div>education</div>;
 }
