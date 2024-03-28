@@ -11,8 +11,8 @@ export function Navbar() {
 
   return (
     <div className="fixed w-full">
-      <nav className=" dark:bg-zinc-900 h-15">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="h-15 md:mt-5">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between dark:bg-zinc-900 md:rounded-full px-7 mx-auto p-4">
           <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -70,7 +70,7 @@ export function Navbar() {
       </nav>
       <div className="md:hidden">
         {open ? (
-          <div className="md:block w-full bg-zinc-900 flex border-t h-auto border-zinc-800 justify-center w-auto p-2">
+          <div className="md:block w-full bg-zinc-900 rounded-b-lg flex border-t h-auto border-zinc-800 justify-center w-auto p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
               <li>
                 <Link href="/about" className="hover:text-red-600">
