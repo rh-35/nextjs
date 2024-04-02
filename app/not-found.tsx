@@ -7,7 +7,7 @@ export default function NotFound() {
       </div>
       <div>
         <img
-          src="https://media.tenor.com/EYUlar2QIe4AAAAM/plink.gif"
+          src="images/building.gif"
           className="rounded"
         />
       </div>
