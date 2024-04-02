@@ -9,7 +9,7 @@ export default function NotFound() {
       </div>
       <div>
         <Image
-          className="rounded"
+          className="rounded-lg"
           src="/images/building.gif"
           height={250}
           width={250}
