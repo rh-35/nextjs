@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function NotFound() {
   return (
     <div className="flex justify-center items-center space-x-8 h-screen">
@@ -6,9 +8,12 @@ export default function NotFound() {
         <span className="text-red-600">404</span>: Page Not Found
       </div>
       <div>
-        <img
-          src="images/building.gif"
+        <Image
           className="rounded"
+          src="/images/building.gif"
+          height={250}
+          width={250}
+          alt="womp womp"
         />
       </div>
     </div>

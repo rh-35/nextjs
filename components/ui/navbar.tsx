@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import Link from "next/link";
+import Image from 'next/image'
 
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -17,9 +18,11 @@ export function Navbar() {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
+            <Image
+              className=" border border-red-600 rounded-full"
               src="/images/rhea.png"
-              className="h-8 border border-red-600 rounded-full"
+              width="32"
+              height="32"
               alt="Icon"
             />
             <span className="self-center hover:text-red-600 text-2xl font-semibold">
