@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import Link from "next/link";
-import Image from 'next/image'
+import Image from 'next/image';
 
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -11,7 +11,7 @@ export function Navbar() {
   };
 
   return (
-    <div className="fixed w-full">
+    <div className="fixed absolue left-0 top-0 w-full">
       <nav className="h-15 md:mt-5">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between dark:bg-zinc-900 md:rounded-full px-7 mx-auto p-4">
           <Link

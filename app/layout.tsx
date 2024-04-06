@@ -18,9 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body className="bg-gradient-to-t from-zinc-900 to-zinc-950">
+      <body className="bg-zinc-950 overflow-x-hidden">
         <Navbar />
-        {children}
+        <main className="h-sreen w-full">
+          {children}
+        </main>
         <Analytics />
         <SpeedInsights />
       </body>
