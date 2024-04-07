@@ -16,6 +16,7 @@ export function Showcase() {
                                 src={showcaseItem.path}
                                 height={500}
                                 width={500}
+                                title={showcaseItem.staticPhoto}
                                 alt={showcaseItem.staticPhoto}
                             />
                         </div>

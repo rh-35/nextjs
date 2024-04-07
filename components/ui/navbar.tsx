@@ -86,7 +86,7 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/Showcase" className="hover:text-red-600">
+                <Link href="/showcase" className="hover:text-red-600">
                   Showcase
                 </Link>
               </li>
