@@ -10,7 +10,7 @@ export function Work() {
             {work.map((workItem) => (
           <div
             key={workItem.title}
-            className="project relative rounded-lg bg-zinc-900"
+            className="relative rounded-lg bg-zinc-900"
           >
             <div className="">
               <div className="flex h-full flex-col justify-between px-5 py-4">

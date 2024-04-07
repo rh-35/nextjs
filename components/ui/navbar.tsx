@@ -11,7 +11,7 @@ export function Navbar() {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full">
+    <div className="fixed left-0 top-0 z-40 w-full">
       <nav className="h-15 md:mt-5">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between shadow-md dark:bg-zinc-900 opacity-[.99] md:rounded-full px-7 mx-auto p-4">
           <Link
@@ -55,8 +55,8 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/education" className="hover:text-red-600">
-                  Education
+                <Link href="/showcase" className="hover:text-red-600">
+                  Showcase
                 </Link>
               </li>
               <li>
@@ -86,8 +86,8 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/education" className="hover:text-red-600">
-                  Education
+                <Link href="/Showcase" className="hover:text-red-600">
+                  Showcase
                 </Link>
               </li>
               <li>

@@ -20,9 +20,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body className="bg-zinc-950 overflow-x-hidden">
         <Navbar />
-        <main className="h-sreen w-full">
-          {children}
-        </main>
+        <main className="h-sreen w-full">{children}</main>
         <Analytics />
         <SpeedInsights />
       </body>
