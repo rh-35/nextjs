@@ -25,7 +25,7 @@ export function Navbar() {
               height="32"
               alt="Icon"
             />
-            <span className="self-center hover:text-red-600 text-2xl font-semibold">
+            <span className="self-center hover:text-red-600 transition duration-250 text-2xl font-semibold">
               Rhea Milberg
             </span>
           </Link>
@@ -73,7 +73,7 @@ export function Navbar() {
       </nav>
       <div className="md:hidden">
         {open ? (
-          <div className="md:block w-full bg-zinc-900 rounded-b-lg flex border-t h-auto border-zinc-800 justify-center p-2">
+          <div className="md:block w-full bg-zinc-900/75 rounded-b-lg flex border-t h-auto border-zinc-800 backdrop-blur-md justify-center p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
               <li>
                 <Link href="/about" className="hover:text-red-600">
