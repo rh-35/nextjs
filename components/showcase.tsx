@@ -8,7 +8,7 @@ export function Showcase() {
     return(
         <div className="flex justify-center w-full h-full flex-wrap my-20">
             {showcase.map((showcaseItem) => (
-                <div key={showcaseItem.staticPhoto} className="relative rounded-lg">
+                <div key={showcaseItem.title} className="relative rounded-lg">
                     <div className="flex h-full flex-col justify-normal px-2 py-2">
                         <div>
                             <Image
@@ -17,8 +17,8 @@ export function Showcase() {
                                 quality={100}
                                 height={0}
                                 width={750}
-                                title={showcaseItem.staticPhoto}
-                                alt={showcaseItem.staticPhoto}
+                                title={showcaseItem.title}
+                                alt={showcaseItem.title}
                             />
                         </div>
                     </div>
