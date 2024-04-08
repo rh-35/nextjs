@@ -13,7 +13,7 @@ export function Navbar() {
   return (
     <div className="fixed left-0 top-0 z-40 w-full">
       <nav className="h-15 md:mt-5">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between shadow-md dark:bg-zinc-900 opacity-[.99] md:rounded-full px-7 mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between shadow-md backdrop-blur-md dark:bg-zinc-900/75 opacity-[.99] md:rounded-full px-7 mx-auto p-4">
           <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
