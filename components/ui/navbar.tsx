@@ -13,7 +13,7 @@ export function Navbar() {
   return (
     <div className="fixed left-0 top-0 z-40 w-full">
       <nav className="h-15 md:mt-5">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between shadow-md backdrop-blur-md bg-zinc-900/75 opacity-[.99] md:rounded-full px-7 mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between shadow-md backdrop-blur-md bg-zinc-900/75 md:rounded-full px-7 mx-auto p-4">
           <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -33,7 +33,7 @@ export function Navbar() {
             <button onClick={handleOpen} className="flex">
               <svg className="h-5 w-5" fill="none" viewBox="0 0 17 14">
                 <path
-                  stroke="#ef4444"
+                  className="stroke-red-400"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
@@ -45,24 +45,24 @@ export function Navbar() {
           <div className="hidden md:block w-auto">
             <ul className="font-medium flex space-x-8">
               <li>
-                <Link href="/about" className="hover:text-red-600">
+                <Link href="/about" className="hover:text-red-600 transition duration-250">
                   About Me
                 </Link>
               </li>
               <li>
-                <Link href="/resume.pdf" className="hover:text-red-600">
+                <Link href="/resume.pdf" className="hover:text-red-600 transition duration-250">
                   Resume
                 </Link>
               </li>
               <li>
-                <Link href="/showcase" className="hover:text-red-600">
+                <Link href="/showcase" className="hover:text-red-600 transition duration-250">
                   Showcase
                 </Link>
               </li>
               <li>
                 <Link
                   href="mailto:rheamilberg@gmail.com"
-                  className="bg-red-800 hover:bg-red-600 p-1.5 rounded-md"
+                  className="bg-red-800 hover:bg-red-600 p-1.5 rounded-md transition duration-250"
                 >
                   Contact
                 </Link>
@@ -73,27 +73,27 @@ export function Navbar() {
       </nav>
       <div className="md:hidden">
         {open ? (
-          <div className="md:block w-full bg-zinc-900/75 rounded-b-lg flex border-t h-auto border-zinc-800 backdrop-blur-md justify-center p-2">
+          <div className="md:block w-full bg-zinc-900/75 rounded-b-lg flex h-auto border-zinc-800 backdrop-blur-md justify-center p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
               <li>
-                <Link href="/about" className="hover:text-red-600">
+                <Link href="/about" className="hover:text-red-600 transition duration-250">
                   About Me
                 </Link>
               </li>
               <li>
-                <Link href="/resume.pdf" className="hover:text-red-600">
+                <Link href="/resume.pdf" className="hover:text-red-600 transition duration-250">
                   Resume
                 </Link>
               </li>
               <li>
-                <Link href="/showcase" className="hover:text-red-600">
+                <Link href="/showcase" className="hover:text-red-600 transition duration-250">
                   Showcase
                 </Link>
               </li>
               <li>
                 <Link
                   href="mailto:rheamilberg@gmail.com"
-                  className="hover:text-red-600"
+                  className="hover:text-red-600 transition duration-250"
                 >
                   Contact
                 </Link>
