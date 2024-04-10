@@ -24,16 +24,17 @@ export function Navbar() {
               width="32"
               height="32"
               alt="Icon"
+              quality={100}
             />
             <span className="self-center hover:text-red-600 transition duration-250 text-2xl font-semibold">
               Rhea Milberg
             </span>
           </Link>
-          <div className="md:hidden">
+          <div className="md:hidden hover:stroke-red-600 stroke-red-400 transition duration-250">
             <button onClick={handleOpen} className="flex">
               <svg className="h-5 w-5" fill="none" viewBox="0 0 17 14">
                 <path
-                  className="stroke-red-400"
+                  className=""
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
@@ -71,7 +72,7 @@ export function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="md:hidden">
+      <div className="md:hidden transition-all duration-500">
         {open ? (
           <div className="md:block w-full bg-zinc-900/75 rounded-b-lg flex h-auto border-zinc-800 backdrop-blur-md justify-center p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
