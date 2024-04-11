@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function resume() {
   return (
     <div className="w-full flex-col overflow-x-hidden mt-32 mb-16">
-      <div className="xl:mx-48 2xl:mx-96 mx-10">
+      <div className=" lg:mx-56 2xl:mx-96 mx-10">
         <div className="text-center">
           <p>
             PDF copy can be found <Link href="/resume.pdf" className="text-zinc-400 underline">Here</Link>
