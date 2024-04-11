@@ -12,8 +12,9 @@ export function Navbar() {
 
   return (
     <div className="fixed left-0 top-0 z-40 w-full">
-      <nav className="h-15 md:mt-5">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between shadow-md backdrop-blur-md bg-zinc-900/75 md:rounded-full px-7 mx-auto p-4">
+      <nav className="h-15">
+        <div className="md:h-4 bg-zinc-950"/>
+        <div className="md:mx-auto xl:mx-48 flex flex-wrap items-center justify-between backdrop-blur-md bg-zinc-900/75 md:rounded-full px-7 p-4">
           <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -74,7 +75,7 @@ export function Navbar() {
       </nav>
       <div className="md:hidden">
         {open ? (
-          <div className="md:block animate-fadeIn w-full bg-zinc-900/75 rounded-b-lg flex h-auto border-zinc-800 backdrop-blur-md justify-center p-2">
+          <div className="md:block w-full rounded-b-xl flex h-auto border-zinc-800 backdrop-blur-md bg-zinc-900/75 justify-center p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
               <li>
                 <Link href="/about" className="hover:text-red-600 transition duration-250">

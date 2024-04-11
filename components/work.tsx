@@ -6,7 +6,7 @@ import { work } from "@/lib/work";
 
 export function Work() {
     return(
-        <div className="mt-12 grid relative w-full grid-flow-row grid-cols-1 gap-10 text-center md:gap-4 md:text-left px-10 lg:mb-0 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-12 grid relative w-full grid-flow-row grid-cols-1 gap-10 text-center md:gap-4 md:text-left px-10 lg:mb-0 md:grid-cols-2 2xl:grid-cols-3">
             {work.map((workItem) => (
           <div
             key={workItem.title}

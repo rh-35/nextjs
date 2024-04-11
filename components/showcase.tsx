@@ -6,23 +6,17 @@ import { showcase } from "@/lib/showcase";
 
 export function Showcase() {
     return(
-        <div className="flex justify-center w-full h-full flex-wrap my-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center content-start gap-4 my-20">
             {showcase.map((showcaseItem) => (
-                <div key={showcaseItem.title} className="relative rounded-lg">
-                    <div className="flex h-full flex-col justify-normal px-2 py-2">
-                        <div>
-                            <Image
-                                className="rounded-2xl"
-                                src={showcaseItem.path}
-                                quality={100}
-                                height={0}
-                                width={750}
-                                title={showcaseItem.title}
-                                alt={showcaseItem.title}
-                            />
-                        </div>
-                    </div>
-                </div>
+                <Image
+                    className="rounded-2xl"
+                    src={showcaseItem.path}
+                    quality={100}
+                    height={0}
+                    width={500}
+                    title={showcaseItem.title}
+                    alt={showcaseItem.title}
+                />      
             ))}
         </div>
     )
