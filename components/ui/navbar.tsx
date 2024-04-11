@@ -51,7 +51,7 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/resume.pdf" className="hover:text-red-600 transition duration-250">
+                <Link href="/resume" className="hover:text-red-600 transition duration-250">
                   Resume
                 </Link>
               </li>
@@ -82,7 +82,7 @@ export function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/resume.pdf" className="hover:text-red-600 transition duration-250">
+                <Link href="/resume" className="hover:text-red-600 transition duration-250">
                   Resume
                 </Link>
               </li>
