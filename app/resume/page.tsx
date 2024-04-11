@@ -1,6 +1,6 @@
 export default function resume(){
     return(
-        <div className="w-full flex-col overflow-x-hidden mt-32">
+        <div className="w-full flex-col overflow-x-hidden mt-32 mb-16">
             <div className="xl:mx-48 2xl:mx-96 mx-10">
                 <div className="text-center">
                     <p className="text-3xl font-bold">Rhea Milberg</p>
