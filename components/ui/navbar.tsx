@@ -20,7 +20,7 @@ export function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
-              className=" border border-red-600 rounded-full"
+              className=" border border-red-600 rounded-full hover:animate-spin"
               src="/images/rhea.png"
               width="32"
               height="32"
