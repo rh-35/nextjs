@@ -6,7 +6,7 @@ export default function resume() {
       <div className="xl:mx-48 2xl:mx-96 mx-10">
         <div className="text-center">
           <p>
-            PDF copy can be found <Link href="/resume.pdf" className="opacity-75 underline">Here</Link>
+            PDF copy can be found <Link href="/resume.pdf" className="text-zinc-400 underline">Here</Link>
           </p>
         </div>
         <div className="text-center">
