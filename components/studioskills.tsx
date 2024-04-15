@@ -16,13 +16,13 @@ export function Studioskills() {
               </div>
               <div className="">
                 <Image
-                  className="h-16 w-16"
+                  className="h-16 w-auto"
                   src={studioskillsItem.image}
                   quality={100}
                   height={0}
                   width={250}
-                  title={studioskillsItem.image}
-                  alt={studioskillsItem.image}
+                  title={studioskillsItem.title}
+                  alt={studioskillsItem.title}
                 />
               </div>
             </div>

@@ -21,8 +21,8 @@ export function Liveskills() {
                   quality={100}
                   height={0}
                   width={250}
-                  title={liveskillsItem.image}
-                  alt={liveskillsItem.image}
+                  title={liveskillsItem.title}
+                  alt={liveskillsItem.title}
                 />
               </div>
             </div>

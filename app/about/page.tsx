@@ -14,7 +14,6 @@ export default function Page() {
         <div className="w-full h-8"/>
         <p className="text-3xl font-semibold">Studio Skills</p>
         <Studioskills/>
-        <div className="w-full h-16"/>
     </div>
   );
 }
