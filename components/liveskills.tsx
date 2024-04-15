@@ -16,11 +16,11 @@ export function Liveskills() {
               </div>
               <div>
                 <Image
-                  className=""
+                  className="h-16 w-auto"
                   src={liveskillsItem.image}
                   quality={100}
                   height={0}
-                  width={50}
+                  width={250}
                   title={liveskillsItem.image}
                   alt={liveskillsItem.image}
                 />

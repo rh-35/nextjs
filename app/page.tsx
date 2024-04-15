@@ -4,7 +4,7 @@ import { Showcase } from "@/components/showcase";
 export default function Home() {
 
   return (
-    <div className="mt-56 xl:mx-56 mx-10">
+    <div className="mt-56 mx-8 md:mx-10 xl:mx-56">
     <div className="flex-col items-center space-x-2 justify-center text-center">
         <div className="text-5xl font-bold">Hello I&apos;m Rhea</div>
         <div className="text-4xl font-semibold text-zinc-400">a dumb idiot that does stupid things</div>
