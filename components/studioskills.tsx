@@ -9,7 +9,7 @@ export function Studioskills() {
           key={studioskillsItem.title}
           className="relative rounded-lg"
         >
-          <div className=" flex-col h-auto md:h-60 content-center rounded-lg px-4 py-4 bg-zinc-900 ">
+          <div className=" flex-col h-auto md:h-72 lg:h-60 content-center rounded-lg px-4 py-4 bg-zinc-900 ">
             <div className="flex items-center justify-center space-x-5">
               <div className="text-3xl font-semibold">
                 {studioskillsItem.title}
