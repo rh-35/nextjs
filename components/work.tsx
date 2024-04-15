@@ -13,7 +13,7 @@ export function Work() {
           className="relative rounded-lg bg-zinc-900"
         >
           <div className="">
-            <div className="flex h-full flex-col justify-between px-5 py-4">
+            <div className="flex h-full flex-col justify-between px-4 py-4">
               <div>
                 <h3 className={`mb-3 text-2xl font-semibold`}>
                   {workItem.title}
