@@ -27,9 +27,7 @@ export function Navbar() {
               alt="Icon"
               quality={100}
             />
-            <span className="self-center hover:text-red-600 transition duration-250 text-2xl font-semibold">
-              Rhea Milberg
-            </span>
+            <span className="hover:text-red-600 transition duration-250 text-2xl font-semibold">Rhea Milberg</span>
           </Link>
           <div className="md:hidden hover:stroke-red-600 stroke-red-400 transition duration-250">
             <button onClick={handleOpen} className="flex">
@@ -46,11 +44,6 @@ export function Navbar() {
           </div>
           <div className="hidden md:block w-auto">
             <ul className="font-medium flex space-x-8">
-              <li>
-                <Link href="/about" className="hover:text-red-600 transition duration-250">
-                  About Me
-                </Link>
-              </li>
               <li>
                 <Link href="/resume" className="hover:text-red-600 transition duration-250">
                   Resume
@@ -77,11 +70,6 @@ export function Navbar() {
         {open ? (
           <div className="md:block w-full rounded-b-xl flex h-auto border-zinc-800 backdrop-blur-md bg-zinc-900/75 justify-center p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
-              <li>
-                <Link href="/about" className="hover:text-red-600 transition duration-250">
-                  About Me
-                </Link>
-              </li>
               <li>
                 <Link href="/resume" className="hover:text-red-600 transition duration-250">
                   Resume
