@@ -27,7 +27,7 @@ export function Showcase() {
             ))}
           </div>
       </div>
-      <div className="invisible md:visible">
+      <div className="hidden md:block">
         <div className="flex items-start justify-center space-x-6 m-10">
           <div className="flex-col justify-center content-start gap-4">
             {firstHalf.map((showcaseItem) => (
