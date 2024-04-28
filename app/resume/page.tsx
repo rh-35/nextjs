@@ -10,7 +10,7 @@ export default function resume() {
           </p>
         </div>
         <div className="text-center">
-          <p className="text-3xl font-bold">Rhea Milberg</p>
+          <p className="text-3xl font-bold">Brooke Milberg</p>
           <p className=""> Portland OR</p>
           <p className="">rheamilberg@gmail.com</p>
         </div>
