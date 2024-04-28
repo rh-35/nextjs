@@ -28,16 +28,16 @@ export function Showcase() {
           </div>
       </div>
       <div className="hidden md:block">
-        <div className="flex items-start justify-center space-x-6 m-10">
+        <div className="flex items-start justify-center space-x-6 mt-10 mx-10">
           <div className="flex-col justify-center content-start gap-4">
             {firstHalf.map((showcaseItem) => (
               <div key={showcaseItem.title}>
                 <Image
-                  className="rounded-2xl my-6"
+                  className="rounded-2xl mt-6"
                   src={showcaseItem.path}
                   quality={100}
                   height={0}
-                  width={1000}
+                  width={1080}
                   title={showcaseItem.title}
                   alt={showcaseItem.title}
                 />
@@ -48,11 +48,11 @@ export function Showcase() {
             {secondHalf.map((showcaseItem) => (
               <div key={showcaseItem.title}>
                 <Image
-                  className="rounded-2xl my-6"
+                  className="rounded-2xl mt-6"
                   src={showcaseItem.path}
                   quality={100}
                   height={0}
-                  width={1000}
+                  width={1080}
                   title={showcaseItem.title}
                   alt={showcaseItem.title}
                 />
