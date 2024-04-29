@@ -34,7 +34,6 @@ export function Navbar() {
           <div className="md:hidden hover:stroke-red-600 stroke-red-400 transition duration-250">
             <button onClick={handleOpen} className="flex">
               <svg
-                
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"

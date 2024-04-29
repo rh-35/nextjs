@@ -11,21 +11,21 @@ export function Showcase() {
   return (
     <div>
       <div className="md:hidden">
-      <div className="flex-col justify-center content-start gap-4">
-            {showcase.map((showcaseItem) => (
-              <div key={showcaseItem.title}>
-                <Image
-                  className="rounded-2xl my-6"
-                  src={showcaseItem.path}
-                  quality={100}
-                  height={0}
-                  width={1000}
-                  title={showcaseItem.title}
-                  alt={showcaseItem.title}
-                />
-              </div>
-            ))}
-          </div>
+        <div className="flex-col justify-center content-start gap-4">
+          {showcase.map((showcaseItem) => (
+            <div key={showcaseItem.title}>
+              <Image
+                className="rounded-2xl my-6"
+                src={showcaseItem.path}
+                quality={100}
+                height={0}
+                width={1000}
+                title={showcaseItem.title}
+                alt={showcaseItem.title}
+              />
+            </div>
+          ))}
+        </div>
       </div>
       <div className="hidden md:block">
         <div className="flex items-start justify-center space-x-6 mt-10 mx-10">
