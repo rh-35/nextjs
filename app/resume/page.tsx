@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function resume() {
   return (
-    <div className="w-full flex-col overflow-x-hidden mt-32 mb-16">
+    <div className="w-full flex-col overflow-x-hidden mt-32">
       <div className=" lg:mx-56 2xl:mx-96 mx-10">
         <div className="text-center">
           <p>

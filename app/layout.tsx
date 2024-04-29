@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body className="bg-zinc-950 overflow-x-hidden">
+      <body className="bg-zinc-950 h-sreen overflow-x-hidden">
         <Navbar />
         <main className="h-sreen w-full">{children}</main>
         <Footer />
