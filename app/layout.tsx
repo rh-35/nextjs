@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Brooke Milberg",
   description: "What am I?",
-  twitter: {
-    images: ['https://brooke-site.vercel.app/images/icon.png']
-  }
+  openGraph: {
+    images: '/images/icon.png',
+  },
 };
 
 export default function RootLayout({
