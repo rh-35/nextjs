@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Brooke Milberg",
   description: "What am I?",
-  image: "/public/images/icon.png",
+  image: "/images/icon.png",
 };
 
 export default function RootLayout({
