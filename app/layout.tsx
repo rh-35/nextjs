@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Brooke Milberg",
   description: "What am I?",
-  image: "/images/icon.png",
+  image: "https://brooke-site.vercel.app/images/icon.png",
 };
 
 export default function RootLayout({
