@@ -3,17 +3,27 @@ import { Liveskills } from "@/components/liveskills";
 
 export default function Page() {
   return (
-    <div className="mt-24 md:mt-56 mx-4 md:mx-10 xl:mx-56 justify-center items-center flex-col">
-        <div className="flex-col items-center md:space-x-2 justify-center text-center">
-            <div className="text-5xl font-bold">Just your typical<div className=" bg-gradient-to-r from-blue-400 via-pink-400 to-blue-400 inline-block text-transparent bg-clip-text text-5xl font-bold px-2">Transfem</div></div>
-            <div className="text-4xl font-semibold text-zinc-400">Technical Theater and Sound Nerd</div>
+    <div className="mt-24 mx-4 md:mx-10 xl:mx-56 justify-center items-center flex-col">
+      <div className="flex h-56 items-center md:space-x-2 justify-center text-center">
+     <div>
+        <p className="text-5xl font-bold space-x-2">
+          <span>Just your typical</span>
+          <span className=" bg-gradient-to-r from-blue-400 via-pink-400 to-blue-400 inline-block text-transparent bg-clip-text text-5xl font-bold">
+            Transfem
+          </span>
+          
+        </p>
+        <div className="text-4xl font-semibold text-zinc-400">
+          Technical Theater and Sound Nerd
         </div>
-        <div className="w-full h-8"/>
-        <p className="text-3xl font-semibold">Live Skills</p>
-        <Liveskills/>
-        <div className="w-full h-8"/>
-        <p className="text-3xl font-semibold">Studio Skills</p>
-        <Studioskills/>
+        </div>
+      </div>
+      
+      <p className="text-3xl text-center font-semibold">Live Skills</p>
+      <Liveskills />
+      <div className="w-full h-16" />
+      <p className="text-3xl text-center font-semibold">Studio Skills</p>
+      <Studioskills />
     </div>
   );
 }
