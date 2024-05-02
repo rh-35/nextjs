@@ -8,9 +8,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Brooke Milberg",
   description: "What am I?",
-  openGraph: {
-    images: '/images/icon.png',
-  },
 };
 
 export default function RootLayout({
