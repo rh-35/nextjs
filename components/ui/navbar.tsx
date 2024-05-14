@@ -11,7 +11,7 @@ export function Navbar() {
   };
 
   return (
-    <div className="fixed left-0 top-0 z-40 w-full">
+    <div className="fixed left-0 top-0 z-30 w-full">
       <nav className="h-15">
         <div className="md:h-4 bg-zinc-950" />
         <div className="md:mx-auto xl:mx-48 flex flex-wrap items-center justify-between backdrop-blur-md bg-zinc-900/75 md:rounded-full px-7 p-4">
