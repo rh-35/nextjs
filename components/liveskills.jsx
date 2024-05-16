@@ -1,14 +1,11 @@
-import { liveskills } from "@/lib/liveskills";
-import Image from "next/image";
+import { liveskills } from "@/lib/liveskills"
+import Image from "next/image"
 
 export function Liveskills() {
   return (
     <div className="mt-8 grid relative w-full grid-flow-row grid-cols-1 gap-10 text-center md:gap-4 md:text-left lg:mb-0 md:grid-cols-2 2xl:grid-cols-3">
-      {liveskills.map((liveskillsItem) => (
-        <div
-          key={liveskillsItem.title}
-          className="relative rounded-lg"
-        >
+      {liveskills.map(liveskillsItem => (
+        <div key={liveskillsItem.title} className="relative rounded-lg">
           <div className=" flex-col h-auto md:h-72 lg:h-60 content-center rounded-lg px-4 py-4 bg-zinc-900 ">
             <div className="flex items-center justify-center space-x-5">
               <div className="text-3xl font-semibold">
@@ -26,11 +23,11 @@ export function Liveskills() {
                 />
               </div>
             </div>
-            <div className="h-4"/>
+            <div className="h-4" />
             <div>{liveskillsItem.description}</div>
           </div>
         </div>
       ))}
     </div>
-  );
+  )
 }
