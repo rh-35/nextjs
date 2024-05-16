@@ -1,5 +1,5 @@
-import { Studioskills } from "@/components/studioskills";
-import { Liveskills } from "@/components/liveskills";
+import { Studioskills } from "@/components/studioskills"
+import { Liveskills } from "@/components/liveskills"
 
 export default function Page() {
   return (
@@ -23,5 +23,5 @@ export default function Page() {
       <p className="text-3xl text-center font-semibold">Studio Skills</p>
       <Studioskills />
     </div>
-  );
+  )
 }

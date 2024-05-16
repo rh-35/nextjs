@@ -2,6 +2,14 @@
 import * as React from "react"
 import Image from "next/image"
 import { showcase } from "@/lib/showcase"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 export function Showcase() {
   const half = Math.ceil(showcase.length / 2)
@@ -58,31 +66,26 @@ export function Showcase() {
       </div>
       <div className="">
         {open ? (
-          <div className="flex place-content-center items-center fixed z-40 w-full h-full bg-zinc-900/50 overflow-none top-0 left-0">
-            <div className="flex-col p-4 pt-2 space-y-2 items-start z-50 bg-zinc-900 w-auto h-auto rounded-2xl border">
-              <div className=" flex w-full justify-between items-center">
-                <div className="text-2xl font-semibold">{image.title}</div>
-                <button onClick={() => handleOpen(image)} className="">
-                  <svg
-                    className=" h-8 w-8 fill-white"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="m12.002 2.005c5.518 0 9.998 4.48 9.998 9.997 0 5.518-4.48 9.998-9.998 9.998-5.517 0-9.997-4.48-9.997-9.998 0-5.517 4.48-9.997 9.997-9.997zm0 8.933-2.721-2.722c-.146-.146-.339-.219-.531-.219-.404 0-.75.324-.75.749 0 .193.073.384.219.531l2.722 2.722-2.728 2.728c-.147.147-.22.34-.22.531 0 .427.35.75.751.75.192 0 .384-.073.53-.219l2.728-2.728 2.729 2.728c.146.146.338.219.53.219.401 0 .75-.323.75-.75 0-.191-.073-.384-.22-.531l-2.727-2.728 2.717-2.717c.146-.147.219-.338.219-.531 0-.425-.346-.75-.75-.75-.192 0-.385.073-.531.22z"></path>
-                  </svg>
-                </button>
-              </div>
-              <div className="self-end">
-                <Image
-                  className="rounded-md md:rounded-2xl w-96 cursor-pointer"
-                  src={image.path}
-                  quality={100}
-                  height={0}
-                  width={1080}
-                  alt=";"
-                />
-              </div>
-            </div>
+          <div>
+            <Dialog open={open} onOpenChange={setOpen}>
+              <DialogContent>
+                <DialogHeader>
+                  <DialogTitle>{image.title}</DialogTitle>
+                  <DialogDescription>
+                    <Image
+                     className=""
+                     src={image.path}
+                     quality={100}
+                     height={0}
+                     placeholder="blur"
+                     width={1080}
+                     title={image.title}
+                     alt={image.title}
+                    />
+                  </DialogDescription>
+                </DialogHeader>
+              </DialogContent>
+            </Dialog>
           </div>
         ) : null}
       </div>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link"
 
 export default function resume() {
   return (
@@ -6,7 +6,10 @@ export default function resume() {
       <div className=" lg:mx-56 2xl:mx-96 mx-4">
         <div className="text-center">
           <p>
-            PDF copy can be found <Link href="/resume.pdf" className="text-zinc-400 underline">Here</Link>
+            PDF copy can be found{" "}
+            <Link href="/resume.pdf" className="text-zinc-400 underline">
+              Here
+            </Link>
           </p>
         </div>
         <div className="text-center">
@@ -99,5 +102,5 @@ export default function resume() {
         </div>
       </div>
     </div>
-  );
+  )
 }

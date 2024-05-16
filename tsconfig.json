@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/showcase.jsx", "app/not-found.jsx", "components/liveskills.jsx", "components/studioskills.jsx", "components/ui/button.jsx", "components/ui/footer.jsx", "components/ui/navbar.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/showcase.jsx", "app/not-found.jsx", "components/liveskills.jsx", "components/studioskills.jsx", "components/button.jsx", "components/footer.jsx", "components/navbar.jsx", "app/page.jsx", "app/layout.jsx", "app/resume/page.jsx", "app/contact/page.jsx", "app/showcase/page.jsx"],
   "exclude": ["node_modules"]
 }
