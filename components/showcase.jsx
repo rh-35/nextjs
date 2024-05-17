@@ -19,8 +19,8 @@ export function Showcase() {
   const [open, setOpen] = React.useState(false)
   const [image, setImage] = React.useState()
 
-  function handleOpen(gfesgfds) {
-    setImage(gfesgfds)
+  function handleOpen(image) {
+    setImage(image)
     setOpen(!open)
   }
 
@@ -64,23 +64,24 @@ export function Showcase() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         {open ? (
           <div>
-            <Dialog open={open} onOpenChange={setOpen}>
+            <Dialog open={open} onOpenChange={setOpen}
+            >
               <DialogContent>
                 <DialogHeader>
                   <DialogTitle>{image.title}</DialogTitle>
                   <DialogDescription>
                     <Image
-                     className=""
-                     src={image.path}
-                     quality={100}
-                     height={0}
-                     placeholder="blur"
-                     width={1080}
-                     title={image.title}
-                     alt={image.title}
+                      className=""
+                      src={image.path}
+                      quality={100}
+                      height={0}
+                      placeholder="blur"
+                      width={1080}
+                      title={image.title}
+                      alt={image.title}
                     />
                   </DialogDescription>
                 </DialogHeader>
