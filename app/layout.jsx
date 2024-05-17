@@ -13,9 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="bg-zinc-950 h-sreen overflow-x-hidden">
+      <body className="flex-col bg-zinc-950 h-lvh w-screen overflow-x-hidden">
         <Navbar />
-        <main className="h-sreen w-full">{children}</main>
+        <main className="h-full w-screen">{children}</main>
         <Footer />
         <Analytics />
         <SpeedInsights />
