@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="flex-col bg-zinc-950 h-lvh w-screen overflow-x-hidden">
+      <body className="flex-col bg-zinc-950 h-full w-screen overflow-x-hidden">
         <Navbar />
         <main className="h-full w-screen">{children}</main>
         <Footer />

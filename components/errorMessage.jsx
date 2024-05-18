@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Errormessage() {
 
-  const errorMessage = notFound[Math.floor(notFound.length * Math.random())];
+  var errorMessage = notFound[Math.floor(notFound.length * Math.random())];
 
   return (
     <div className="flex-col sm:flex-row flex space-y-2 sm:space-x-8 justify-center items-center mt-4 h-full w-full">
