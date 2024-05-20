@@ -13,7 +13,7 @@ export function Errormessage() {
       </div>
       <div>
         <Image
-          className="rounded-lg self-center justify-self-center"
+          className="rounded-lg self-center h-64 justify-self-center"
           src={errorMessage.path}
           height={250}
           width={250}

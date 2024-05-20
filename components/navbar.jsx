@@ -2,6 +2,7 @@
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { ModeToggle } from "./ui/mode-toggle";
 
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -11,10 +12,10 @@ export function Navbar() {
   };
 
   return (
-    <div className="fixed left-0 top-0 z-30 w-full">
+    <div className="fixed left-0 top-0 text-white z-30 w-full">
       <nav className="h-15">
-        <div className="md:h-4 bg-zinc-950" />
-        <div className="md:mx-auto xl:mx-48 flex flex-wrap items-center justify-between backdrop-blur-md bg-zinc-900/75 md:rounded-full px-7 p-4">
+        <div className="md:h-4" />
+        <div className="md:mx-auto xl:mx-48 flex flex-wrap items-center justify-between backdrop-blur-md bg-red-500 dark:bg-zinc-900/75 md:rounded-full px-7 p-4">
           <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -50,7 +51,7 @@ export function Navbar() {
             </button>
           </div>
           <div className="hidden md:block w-auto">
-            <ul className="font-medium flex space-x-8">
+            <ul className="font-medium items-center flex space-x-8">
               <li>
                 <Link
                   href="/resume"
@@ -74,6 +75,9 @@ export function Navbar() {
                 >
                   Contact
                 </Link>
+              </li>
+              <li>
+                <ModeToggle/>
               </li>
             </ul>
           </div>
