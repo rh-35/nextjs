@@ -85,7 +85,7 @@ export function Navbar() {
       </nav>
       <div className="md:hidden">
         {open ? (
-          <div className="md:block w-full rounded-b-xl flex h-auto border-zinc-800 backdrop-blur-md bg-zinc-900/75 justify-center p-2">
+          <div className="md:block items-center w-full rounded-b-xl flex h-auto border-zinc-800 backdrop-blur-md bg-zinc-900/75 justify-center p-2">
             <ul className="font-medium text-l flex flex-row flex-wrap justify-center align-center space-x-4">
               <li>
                 <Link
@@ -110,6 +110,9 @@ export function Navbar() {
                 >
                   Contact
                 </Link>
+              </li>
+<li>
+                <ModeToggle/>
               </li>
             </ul>
           </div>
